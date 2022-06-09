@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Patient Revenue Prediction</title>
+</head>
+<body>
+	<div class='login'>
+		<h1>Predict Revenue</h1>
+		<form action="/" method="POST">
+			<input type="text" name ="patientid" placeholder="patientid" required="required"/>
+			<input type="text" name ="profit" placeholder="profit" required="required"/>
+			<input type="text" name ="price" placeholder="price" required="required"/>
+			<input type="text" name ="cost" placeholder="cost" required="required"/>
+			<input type="text" name ="discount" placeholder="discount" required="required"/>
+			<input type="text" name ="zipcode" placeholder="zipcode" required="required"/>
+			<input type="submit" class="btn btn-primary" name="submit"/>
+			<input type="text" id="input" value="{{result}}" name="input"/>
+
+		
+
+		</form>
+		<br><br>
+		
+	</div>
+
+</body>
+</html>
