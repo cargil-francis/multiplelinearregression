@@ -75,9 +75,9 @@ def main():
 
         arr=numpy.array(h,dtype=float)
         result=obj.predict([arr])
-        return render_template('Index.html',result="{}".format(result[0]))
+        return render_template('index.html',result="{}".format(result[0]))
 
     
-    return render_template('Index.html')
+    return render_template('index.html')
 
 
